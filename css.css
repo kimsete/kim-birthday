@@ -4,7 +4,7 @@
 /* Aplicando a fonte ABeeZee ao corpo do documento */
 body {
     font-family: 'ABeeZee', sans-serif;
-    background-image: url('image.png');
+    background-image: url('pix.png');
     background-size: cover; /* Ajusta a imagem para cobrir todo o background */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     height: 100vh; /* Ajusta a altura para preencher a tela */
