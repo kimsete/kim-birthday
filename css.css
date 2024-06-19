@@ -5,7 +5,8 @@
 body {
     font-family: 'ABeeZee', sans-serif;
     background-image: url('pix.png');
-    background-size: cover; /* Ajusta a imagem para cobrir todo o background */
+    w
+    background-size: 100% 100%; /* Ajusta a imagem para cobrir todo o background */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     height: 100vh; /* Ajusta a altura para preencher a tela */
     margin: 0; /* Remove margens padrão do body */
