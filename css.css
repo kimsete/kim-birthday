@@ -20,7 +20,6 @@ body {
     top: 40%; /* Centraliza verticalmente */
     left: 50%; /* Centraliza horizontalmente */
     transform: translate(-50%, -50%); /* Centraliza completamente */
-    background-color: rgba(255, 255, 255, 0.7); /* Fundo opaco para melhor leitura */
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -37,10 +36,4 @@ body {
     border-radius: 5px;
     font-family: 'ABeeZee', sans-serif;
 
-}
-
-.content {
-    background-color: rgba(255, 255, 255, 0.7); /* Fundo opaco para melhor leitura */
-    padding: 20px;
-    border-radius: 10px;
 }
