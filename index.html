@@ -9,9 +9,55 @@
     <link rel="icon" type="image/x-icon" href="K..png" />
     <link href="css.css" rel="stylesheet" />
 </head>
+
+
 <body>
-    <center>
-    <img width="100%" src="image.png" alt="kim" >
-    </center>
-</body>
+<center>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<br></br>
+
+<br></br>
+
+
+
+    <p>ou copie o código abaixo e cole na área pix do seu banco</p>
+</br>
+</br>
+
+<div class="content">
+<div>
+        <!-- Botão para copiar o texto -->
+        <button class="copy-button" onclick="copyText()">Copiar Texto</button>
+    </div>
+    <br>
+    <div>
+        <!-- Texto que será copiado -->
+        <textarea id="textoParaCopiar" rows="0" style="width: 50%;" readonly>00020101021126580014br.gov.bcb.pix013683cf8482-b7db-488a-9cdd-42a7d6bc3e8f520400005303986540535.005802BR5921EMILYN DOS S FERREIRA6013RIBEIRAO PIRE62070503***63044A17</textarea>
+    </div>
+</div>
+
+    <script>
+        // Função para copiar o texto para a área de transferência
+        function copyText() {
+            var textarea = document.getElementById("textoParaCopiar");
+            textarea.select();
+            document.execCommand("copy");
+            alert("Texto copiado para a área de transferência!");
+        }
+    </script>
+</center>
 </html>
