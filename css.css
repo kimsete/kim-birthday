@@ -5,14 +5,24 @@
 body {
     font-family: 'ABeeZee', sans-serif;
     background-image: url('pix.png');
-    w
-    background-size: 100%; /* Ajusta a imagem para cobrir todo o background */
+    background-size: 100% ; /* Ajusta a imagem para cobrir todo o background */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     height: 100vh; /* Ajusta a altura para preencher a tela */
     margin: 0; /* Remove margens padrão do body */
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.texto-posicionado {
+    position: absolute;
+    top: 35%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza completamente */
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo opaco para melhor leitura */
+    padding: 20px;
+    border-radius: 10px;
     text-align: center;
 }
 
