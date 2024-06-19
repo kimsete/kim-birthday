@@ -1,17 +1,35 @@
-body, html {
-    height: 100%;
-  }
-  
-  .bg {
-    /* The image used */
-    background-image: url("image.png");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
+/* Importando a fonte ABeeZee do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+/* Aplicando a fonte ABeeZee ao corpo do documento */
+body {
+    font-family: 'ABeeZee', sans-serif;
+    background-image: url('image.png');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o background */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    height: 100vh; /* Ajusta a altura para preencher a tela */
+    margin: 0; /* Remove margens padrão do body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilizando o botão */
+.copy-button {
+    background-color: #6A35F2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo opaco para melhor leitura */
+    padding: 20px;
+    border-radius: 10px;
+}
