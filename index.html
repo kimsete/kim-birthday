@@ -1,64 +1,39 @@
-<!DOCTYPE html>
-<html>
+/* Importando a fonte ABeeZee do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
-<head>
-	<meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Kim's Birthday</title>
-    <link rel="icon" type="image/x-icon" href="K..png" />
-    <link href="css.css" rel="stylesheet" />
-</head>
+/* Aplicando a fonte ABeeZee ao corpo do documento */
+body {
+    font-family: 'ABeeZee', sans-serif;
+    background-image: url('pix.png');
+    background-size: 100% ; /* Ajusta a imagem para cobrir todo o background */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    height: 100vh; /* Ajusta a altura para preencher a tela */
+    margin: 0; /* Remove margens padrão do body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.texto-posicionado {
+    position: absolute;
+    top: 40%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza completamente */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
 
-<body>
-<center>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+/* Estilizando o botão */
+.copy-button {
+    background-color: #6A35F2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'ABeeZee', sans-serif;
 
-<br></br>
-
-<br></br>
-
-<div class="texto-posicionado">
-
-    <p>ou copie o código abaixo e cole na área pix do seu banco</p>
-</br>
-</br>
-
-<div class="content">
-<div>
-        <!-- Botão para copiar o texto -->
-        <button class="copy-button" onclick="copyText()">Copiar Texto</button>
-    </div>
-    <br>
-    <div>
-        <!-- Texto que será copiado -->
-        <textarea id="textoParaCopiar" rows="0" style="width: 50%;" readonly>00020101021126580014br.gov.bcb.pix013683cf8482-b7db-488a-9cdd-42a7d6bc3e8f520400005303986540535.005802BR5921EMILYN DOS S FERREIRA6013RIBEIRAO PIRE62070503***63044A17</textarea>
-    </div>
-</div>
-</div>
-
-    <script>
-        // Função para copiar o texto para a área de transferência
-        function copyText() {
-            var textarea = document.getElementById("textoParaCopiar");
-            textarea.select();
-            document.execCommand("copy");
-            alert("Texto copiado para a área de transferência!");
-        }
-    </script>
-</center>
-</html>
+}
